@@ -71,9 +71,9 @@ def atualizarContato():
             i += 1
 
         try:
-            opcao = int(opcao)
             opcao = input("Informe o número correspondente ao número que será editado: ")
-
+            opcao = int(opcao)
+            
         except ValueError:
             print("\nSomente número!\n")
             return
